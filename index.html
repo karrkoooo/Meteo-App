@@ -3,44 +3,51 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="src/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="src/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
 
     <title>Meteo App</title>
   </head>
   <body>
-    <header>
-        <form>
-            <input type="text" placeholder="Enter a city" required autofocus="on">
-            <input type="submit" value="Search">
-        </form>
-    </header>
     <div class="weather-app-container">
-    <main>
-    <h1>Kraków, Poland</h1>
-    <h2>Sunny</h2>
-    <p>
-        Friday, 17th May 20:52
-        <br>
-        Humidity: 73%, Wind: 2.1 km/h
-    </p>
-    <p>
-        ☀️26°C
-    </p>
-    <footer>
-      Built and coded by
-      <a href="https://github.com/karrkoooo" target="_blank"
-        >Karolina Kołodziejczyk</a
-      >, code hosted on
-      <a href="https://github.com/karrkoooo/Meteo-App" target="_blank">GitHub</a
-      >, website hosted on
-      <a href="https://resilient-zuccutto-d8a6f1.netlify.app/" target="_blank"
-        >Netlify</a
-      >.
-    </main>
-  </div>
-    </footer>
+      <div class="search-city-form">
+        <form>
+          <input
+            type="text"
+            placeholder="Enter a city"
+            required
+            autofocus="on"
+            class="input-city"
+          />
+          <input type="submit" value="Search" class="city-search-button" />
+        </form>
+      </div>
+      <main>
+        <h1>Kraków, Poland</h1>
+        <h2>Sunny</h2>
+        <p>
+          Friday, 17th May 20:52
+          <br />
+          Humidity: <bold>73%</bold>, Wind: <bold>2.1 km/h</bold>
+        </p>
+        <p>☀️26°C</p>
+
+        Built and coded by
+        <a href="https://github.com/karrkoooo" target="_blank"
+          >Karolina Kołodziejczyk</a
+        >, code hosted on
+        <a href="https://github.com/karrkoooo/Meteo-App" target="_blank"
+          >GitHub</a
+        >, website hosted on
+        <a href="https://resilient-zuccutto-d8a6f1.netlify.app/" target="_blank"
+          >Netlify</a
+        >.
+      </main>
+    </div>
   </body>
 </html>
